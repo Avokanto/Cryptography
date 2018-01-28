@@ -55,14 +55,14 @@ void rearange(string &s){
 }
 
 int main(){
-    string s[71];
-    for (int i=0; i<71; ++i){
+    string s[72];
+    for (int i=0; i<72; ++i){
         getline(cin, s[i]);
     }
-    for (int i=0; i<71; ++i)
+    for (int i=0; i<72; ++i)
         rearange(s[i]);
     for (int i=0; i<5; ++i) cout << endl;
     
-    for (int i=0; i<71; ++i)
+    for (int i=0; i<72; ++i)
         cout << s[i] << endl;
 }
